@@ -1,17 +1,42 @@
 export const HEADER_SOCIAL_LINKS = [
-    { link: "/", icon: "/assets/images/png/twitter-icon.png" },
-    { link: "/", icon: "/assets/images/png/telegram-icon.png" },
-    { link: "/", icon: "/assets/images/png/discord-icon.png" },
+    { link: "https://x.com/?lang=en-id", icon: "/assets/images/webp/twitter-icon.webp" },
+    { link: "https://web.telegram.org/", icon: "/assets/images/webp/telegram-icon.webp" },
+    { link: "https://discord.com/", icon: "/assets/images/webp/discord-icon.webp" },
 ];
-
-export const HERO_SCROLL_CONTENT = [
-    { content: "/assets/images/png/running-line-img.png" },
-    { content: "/assets/images/png/running-line-img.png" },
-    { content: "/assets/images/png/running-line-img.png" },
+export const HEADER_FLAGS_DATA_LIST = [
+    { src: '/assets/images/webp/header-flag-img-2.webp', alt: 'Flag 2' },
+    { src: '/assets/images/webp/header-flag-img-3.webp', alt: 'Flag 3' },
+    { src: '/assets/images/webp/header-flag-img-4.webp', alt: 'Flag 4' },
 ];
 
 export const BAKE_TO_EARN_BTN_LIST = [
-    { image: "/assets/images/png/coin-gecko-btn.png" },
-    { image: "/assets/images/png/dex-screener-btn.png" },
-    { image: "/assets/images/png/dextools-btn.png" },
+    { image: "/assets/images/webp/coin-gecko-btn.webp" },
+    { image: "/assets/images/webp/dex-screener-btn.webp" },
+    { image: "/assets/images/webp/dextools-btn.webp" },
 ];
+export const PEPERUNEY_TEXT_LIST = [
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+    "/assets/images/webp/peperuney-text.webp",
+]

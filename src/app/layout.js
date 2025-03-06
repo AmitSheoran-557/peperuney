@@ -8,7 +8,7 @@ export const metadata = {
     description: "Welcome back! Please enter your details.",
     images: [
       {
-        url: "/meta-image.png",
+        url: "/meta-image.webp",
         width: 800,
         height: 600,
         alt: "PepeRuney Branding Image",
@@ -19,7 +19,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "PepeRuney",
     description: "Welcome back! Please enter your details.",
-    images: ["/meta-image.png"],
+    images: ["/meta-image.webp"],
   },
 };
 

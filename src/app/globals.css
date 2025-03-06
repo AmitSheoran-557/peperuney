@@ -1,11 +1,13 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Schoolbell&display=swap');
+
+.font-luckiest {
+    font-family: "Luckiest Guy", cursive;
+}
 
 * {
     font-family: "Schoolbell", cursive;
 }
-
 
 .bg-dark-green {
     background-color: #067A52;
@@ -17,10 +19,6 @@
 
 .scroll-bar-none::-webkit-scrollbar {
     display: none;
-}
-
-.font-luckiest {
-    font-family: "Luckiest Guy", cursive;
 }
 
 @keyframes scroll {
@@ -70,11 +68,11 @@
     }
 
     33% {
-        transform: rotate(4deg)  ;
+        transform: rotate(4deg);
     }
 
     66% {
-        transform: rotate(-4deg)  ;
+        transform: rotate(-4deg);
     }
 
     100% {
@@ -82,9 +80,27 @@
     }
 }
 
-    .animate-move-scale:hover {
-        animation: moveScale 1s ease-in-out;
+.animate-move-scale:hover {
+    animation: moveScale 1s ease-in-out;
+}
+
+@keyframes moveLeftRight {
+    0% {
+        transform: translateX(0);
     }
+
+    50% {
+        transform: translateX(1200px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.image-move {
+    animation: moveLeftRight 30s ease-in-out infinite;
+}
 
 @media (max-width: 1200.99px) {
     .bg-red-gradient {
