@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="max-w-[1332px] px-4 w-full mx-auto">
                 <Header />
                 <Image className='!max-w-[777px] xl:pt-[63px] xl:pb-[54px] max-xl:py-11 max-lg:py-8 max-md:py-5 mx-auto w-full' src="/assets/images/png/peperuney-img.png" alt="buy-button" width={777} height={283} />
-                <Image className='md:!max-w-[311px] max-w-64 z-10 relative lg:pb-7 md:pb-6 bikeImage pb-5 mx-auto w-full' src="/assets/images/png/dilivery-img.png" alt="delivery-boy-img" width={311} height={316} />
+                <Image className='md:!max-w-[311px] max-w-64 z-10 relative lg:pb-7 md:pb-6 bikeImage pb-5 mx-auto w-full' src="/assets/images/png/delivery-img.png" alt="delivery-boy-img" width={311} height={316} />
             </div>
             <div className='relative w-full h-[100px] bg-red mx-auto flex justify-center items-center'>
                 <Image className='!max-w-[1920px] absolute pointer-events-none bottom-[100px] mx-auto w-full' src="/assets/images/png/hero-pizza-img.png" alt="pizza-img" width={1920} height={244} />

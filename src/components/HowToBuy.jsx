@@ -15,11 +15,11 @@ const HowToBuy = () => {
                 </div>
                 <div className="xl:pt-20 lg:pt-16 md:pt-12 sm:pt-9 pt-5 z-20 -mt-1 relative flex flex-col justify-center mx-auto items-center">
                     <Image className='xl:!max-w-[443px] lg:max-w-sm md:max-w-[300px] max-w-[240px] mx-auto w-full lg:mb-6 mb-5' src="/assets/images/png/how-to-buy-title.png" alt="how-to-buy-title" width={443} height={155} />
-                    <div className="bg-[url(/assets/images/png/open-pizza-box.png)]   max-w-[1920px] mx-auto bg-cover bg-no-repeat w-full mx-auto bg-center">
+                    <div className="bg-[url(/assets/images/png/open-pizza-box.png)] max-w-[1920px] bg-cover bg-no-repeat w-full mx-auto bg-center">
                         <div className="bg-brown-100 py-12">
                             <div className="container max-w-[1075px] lg:pt-16 md:pt-24 sm:pt-20 pt-12 mx-auto px-4">
-                                <div className="flex flex-wrap justify-center lg:items-center items-start lg:gap-8 gap-16">
-                                    <div className="w-full max-w-[322px] lg:pt-[125px]">
+                                <div className="flex flex-wrap justify-center xl:items-center items-start xl:pt-0 lg:pt-8 xl:gap-8 gap-16">
+                                    <div className="w-full max-w-[322px] xl:pt-[125px]">
                                         <div className="bg-white border-4 pt-[50px] px-5 pb-5 relative w-full max-w-[322px]">
                                             <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white text-[54px] px-3">
                                                 01
@@ -45,7 +45,7 @@ const HowToBuy = () => {
                                             <Image className='!max-w-[40px] w-full' src="/assets/images/png/text-copy-logo.png" alt="copy-icon" width={32} height={32} />
                                         </div>
                                     </div>
-                                    <div className="w-full max-w-[322px] lg:pt-[125px]">
+                                    <div className="w-full max-w-[322px] xl:pt-[125px]">
                                         <div className="bg-white border-4 pt-[50px] px-5 pb-5 relative w-full max-w-[322px]">
                                             <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white text-[54px] px-3">
                                                 03
