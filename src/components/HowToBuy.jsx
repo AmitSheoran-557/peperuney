@@ -1,4 +1,3 @@
-import { HERO_SCROLL_CONTENT } from "@/utils/helper"
 import Image from "next/image"
 import CustomPeperuneyAnimation from "./common/CustomPeperuneyAnimation"
 
