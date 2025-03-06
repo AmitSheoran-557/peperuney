@@ -1,0 +1,93 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+
+* {
+    font-family: "Schoolbell", cursive;
+}
+
+
+.bg-dark-green {
+    background-color: #067A52;
+}
+
+.bg-red {
+    background-color: #DA291C;
+}
+
+.scroll-bar-none::-webkit-scrollbar {
+    display: none;
+}
+
+.font-luckiest {
+    font-family: "Luckiest Guy", cursive;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.scrolling-content {
+    display: flex;
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes moveBike {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(20px, 0);
+    }
+
+    50% {
+        transform: translate(20px, 10px);
+    }
+
+    75% {
+        transform: translate(0, 20px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.bikeImage {
+    animation: moveBike 8s ease-in-out infinite;
+}
+
+@keyframes moveScale {
+    0% {
+        transform: rotate(0);
+    }
+
+    33% {
+        transform: rotate(4deg)  ;
+    }
+
+    66% {
+        transform: rotate(-4deg)  ;
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+    .animate-move-scale:hover {
+        animation: moveScale 1s ease-in-out;
+    }
+
+@media (max-width: 1200.99px) {
+    .bg-red-gradient {
+        background: linear-gradient(180deg, #A22F27 0%, #3C110E 100%);
+    }
+}
