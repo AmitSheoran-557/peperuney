@@ -16,37 +16,37 @@ const HowToBuy = () => {
                             <div className="container max-w-[1075px] lg:pt-16 md:pt-24 sm:pt-20 pt-12 mx-auto px-4">
                                 <div className="flex flex-wrap justify-center xl:items-center items-start xl:pt-0 lg:pt-8 xl:gap-8 gap-16">
                                     <div className="w-full max-w-[322px] xl:pt-[125px]">
-                                        <div className="bg-white border-4 pt-[50px] lg:min-h-[253px] px-5 pb-5 relative w-full max-w-[322px]">
-                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white text-[54px] px-3">
+                                        <div className="bg-white border-4 pt-[56px] lg:min-h-[253px] px-5 pb-5 relative w-full max-w-[322px]">
+                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white lg:text-[54px] text-4xl lg:p-3 p-2">
                                                 01
                                             </div>
-                                            <h2 className="text-2xl font-bold font-luckiest mb-4">GET YOUR WALLET READY</h2>
+                                            <h2 className="lg:text-[40px] text-center text-3xl font-bold font-luckiest mb-4">GET YOUR WALLET READY</h2>
                                             <p className="text-gray-700">
                                                 Set up Phantom Wallet and connect it to Solana. Make sure Solana's locked and loaded as the active network.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="w-full max-w-[322px] flex flex-col justify-center items-center">
-                                        <div className="bg-white border-4 pt-[50px] md:min-h-[253px] xl:min-h-0 px-5 pb-5 relative w-full max-w-[322px]">
-                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white text-[54px] px-3">
+                                        <div className="bg-white border-4 pt-[56px] md:min-h-[253px] xl:min-h-0 px-5 pb-5 relative w-full max-w-[322px]">
+                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white lg:text-[54px] text-4xl lg:p-3 p-2">
                                                 02
                                             </div>
-                                            <h2 className="text-2xl font-bold font-luckiest mb-4">FUND YOUR WALLET</h2>
+                                            <h2 className="lg:text-[40px] text-center text-3xl font-bold font-luckiest mb-4">FUND YOUR WALLET</h2>
                                             <p className="text-gray-700">
                                                 Load up on SOL from Coinbase, Binance, or OKX. Double-check your wallet address—no room for slip-ups.
                                             </p>
                                         </div>
                                         <div className="mt-4 p-2 border-4 max-xl:hidden relative flex justify-between lg:whitespace-nowrap items-center bg-white max-w-[322px] w-full lg:!min-w-[338px] text-sm">
-                                            <p className="text-black">CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
+                                            <p className="text-black lg:text-lg ">CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
                                             <Image className='!max-w-[40px] w-full' src="/assets/images/webp/text-copy-logo.webp" alt="copy-icon" width={32} height={32} />
                                         </div>
                                     </div>
                                     <div className="w-full max-w-[322px] xl:pt-[125px]">
-                                        <div className="bg-white border-4 pt-[50px] lg:min-h-[253px] px-5 pb-5 relative w-full max-w-[322px]">
-                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white text-[54px] px-3">
+                                        <div className="bg-white border-4 pt-[56px] lg:min-h-[253px] px-5 pb-5 relative w-full max-w-[322px]">
+                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white lg:text-[54px] text-4xl lg:p-3 p-2">
                                                 03
                                             </div>
-                                            <h2 className="text-2xl font-bold font-luckiest mb-4">GRAB THAT $PEPERUNEY</h2>
+                                            <h2 className="lg:text-[40px] text-center text-3xl font-bold font-luckiest mb-4">GRAB THAT $PEPERUNEY</h2>
                                             <p className="text-gray-700">
                                                 Hit up a Solana DEX like Meteora or Jupiter, swap your SOL for $PepeRuney, and lock it in. Hell yeah!
                                             </p>

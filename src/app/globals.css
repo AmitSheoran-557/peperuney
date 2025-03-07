@@ -1,12 +1,12 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Schoolbell&display=swap');
+@import "tailwindcss";
 
 .font-luckiest {
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Luckiest Guy", sans-serif;
 }
 
 * {
-    font-family: "Schoolbell", cursive;
+    font-family: "Schoolbell", sans-serif;
 }
 
 .bg-dark-green {
