@@ -32,8 +32,9 @@ const Pizzanomics = () => {
                         <div className="lg:w-7/12 w-full flex flex-col items-center">
                             <Image className='xl:!max-w-[500px] lg:max-w-sm md:max-w-sm max-w-xs w-full lg:mb-6 mb-5 pointer-events-none' src="/assets/images/webp/closed-oven.webp" alt="closed-oven-img" width={500} height={80} />
                             <Image className='xl:!max-w-[500px] lg:max-w-md md:max-w-sm max-w-xs w-full relative z-20 pointer-events-none lg:mb-4 mb-3' src="/assets/images/webp/bake-to-earn.webp" alt="bake-to-earn-img" width={500} height={370} />
-                            <Link href="#">
-                                <Image className='!max-w-[313px] transition-transform transform hover:scale-x-105 animate-move-scale w-full relative z-20' src="/assets/images/webp/earn-now-btn.webp" alt="earn-now-img" width={313} height={97} />
+                            <Link href="/" className='bg-[url(/assets/images/webp/buy-btn-bg.webp)] gap-4 relative z-10 bg-[length:100%_100%] lg:max-w-[313px] lg:h-[97px] h-[74px] flex justify-center items-center transition-transform transform hover:scale-x-105 animate-move-scale max-w-[335px] w-full'>
+                            <Image className='max-w-8 w-full md:hidden max-md:block pointer-events-none' src="/assets/images/webp/telegram-icon-2.webp" alt="telegram-icon-img" width={32} height={32} />
+                                <h3 className='font-luckiest font-normal lg:text-[36px] text-2xl text-white lg:px-2 px-1 md:py-3 py-2 whitespace-nowrap lg:py-4'>Earn now</h3>
                             </Link>
                         </div>
                         <div className="lg:w-5/12 w-full flex justify-center">
@@ -49,8 +50,8 @@ const Pizzanomics = () => {
 
                         ))}
                     </div>
-                    <div className='relative w-full h-[100px] max-w-[1920px] overflow-hidden bg-red mx-auto flex justify-center items-center'>
-                        <CustomPeperuneyAnimation customClass="bg-red h-[100px]" />
+                    <div className='relative w-full sm:h-[100px] h-[76px] max-w-[1920px] overflow-hidden bg-red mx-auto flex justify-center items-center'>
+                        <CustomPeperuneyAnimation customClass="bg-red sm:h-[100px] h-[76px]" />
                     </div>
                 </div>
             </div>

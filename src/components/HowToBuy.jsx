@@ -6,7 +6,7 @@ const HowToBuy = () => {
         <>
             <div className="w-full relative">
                 <div className="bg-dark-green scroll-bar-none flex flex-col justify-center mx-auto items-center xl:pb-48 lg:pb-40 md:pb-32 sm:pb-24 pb-12 relative">
-                    <CustomPeperuneyAnimation customClass="h-[100px] border-none" />
+                    <CustomPeperuneyAnimation customClass="sm:h-[100px] max-sm:h-[76px] border-none" />
                     <Image className='absolute -bottom-1 z-20 pointer-events-none mx-auto w-full max-h-[195px]' src="/assets/images/webp/how-to-buy-cloud.webp" alt="cloud-img" width={1920} height={195} />
                 </div>
                 <div className="xl:pt-20 lg:pt-16 md:pt-12 sm:pt-9 pt-5 z-20 -mt-1 relative flex flex-col justify-center mx-auto items-center">
@@ -16,8 +16,8 @@ const HowToBuy = () => {
                             <div className="container max-w-[1075px] lg:pt-16 md:pt-24 sm:pt-20 pt-12 mx-auto px-4">
                                 <div className="flex flex-wrap justify-center xl:items-center items-start xl:pt-0 lg:pt-8 xl:gap-8 gap-16">
                                     <div className="w-full max-w-[322px] xl:pt-[125px]">
-                                        <div className="bg-white border-4 pt-[56px] lg:min-h-[253px] px-5 pb-5 relative w-full max-w-[322px]">
-                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white lg:text-[54px] text-4xl lg:p-3 p-2">
+                                        <div className="bg-white border-4 md:pt-[56px] sm:pt-11 pt-10 lg:min-h-[253px] px-5 pb-5 relative w-full max-w-[322px]">
+                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute lg:-top-11 md:-top-9 -top-8 lg:left-28 left-32 flex bg-black text-white lg:text-[54px] text-4xl lg:p-3 p-2">
                                                 01
                                             </div>
                                             <h2 className="lg:text-[40px] text-center text-3xl font-bold font-luckiest mb-4">GET YOUR WALLET READY</h2>
@@ -27,8 +27,8 @@ const HowToBuy = () => {
                                         </div>
                                     </div>
                                     <div className="w-full max-w-[322px] flex flex-col justify-center items-center">
-                                        <div className="bg-white border-4 pt-[56px] md:min-h-[253px] xl:min-h-0 px-5 pb-5 relative w-full max-w-[322px]">
-                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white lg:text-[54px] text-4xl lg:p-3 p-2">
+                                        <div className="bg-white border-4 md:pt-[56px] sm:pt-11 pt-10 md:min-h-[253px] xl:min-h-0 px-5 pb-5 relative w-full max-w-[322px]">
+                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute lg:-top-11 md:-top-9 -top-8 lg:left-28 left-32 flex bg-black text-white lg:text-[54px] text-4xl lg:p-3 p-2">
                                                 02
                                             </div>
                                             <h2 className="lg:text-[40px] text-center text-3xl font-bold font-luckiest mb-4">FUND YOUR WALLET</h2>
@@ -42,8 +42,8 @@ const HowToBuy = () => {
                                         </div>
                                     </div>
                                     <div className="w-full max-w-[322px] xl:pt-[125px]">
-                                        <div className="bg-white border-4 pt-[56px] lg:min-h-[253px] px-5 pb-5 relative w-full max-w-[322px]">
-                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute -top-9 left-28 flex bg-black text-white lg:text-[54px] text-4xl lg:p-3 p-2">
+                                        <div className="bg-white border-4 md:pt-[56px] sm:pt-11 pt-10 lg:min-h-[253px] px-5 pb-5 relative w-full max-w-[322px]">
+                                            <div className="-rotate-6 mx-auto justify-center items-center max-w-max font-luckiest absolute lg:-top-11 md:-top-9 -top-8 lg:left-28 left-32 flex bg-black text-white lg:text-[54px] text-4xl lg:p-3 p-2">
                                                 03
                                             </div>
                                             <h2 className="lg:text-[40px] text-center text-3xl font-bold font-luckiest mb-4">GRAB THAT $PEPERUNEY</h2>
