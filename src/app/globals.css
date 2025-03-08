@@ -96,3 +96,19 @@
         background: linear-gradient(180deg, #A22F27 0%, #3C110E 100%);
     }
 }
+
+@media (max-width: 991.99px) {
+    @keyframes moveBike {
+        0% {
+            transform: translate(-645px);
+        }
+
+        100% {
+            transform: translate(650px);
+        }
+    }
+
+    .bikeImage {
+        animation: moveBike 8s ease-in-out infinite;
+    }
+}

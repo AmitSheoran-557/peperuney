@@ -1,5 +1,6 @@
 import { OUR_PARTNERS_BTN_LIST } from "@/utils/helper"
 import Image from "next/image"
+import Link from "next/link"
 
 const OurPartners = () => {
     return (
@@ -12,7 +13,9 @@ const OurPartners = () => {
             </div>
             <div className="flex flex-wrap justify-center items-center max-xl:px-4  xl:mt-[75px] lg:mt-16 md:mt-14 sm:mt-12 mt-7 xl:gap-[60px] lg:gap-12 md:gap-10 sm:gap-8 gap-6">
                 {OUR_PARTNERS_BTN_LIST.map((item, i) => (
-                    <Image key={i} className="xl:max-w-[360px] lg:max-w-xs sm:max-w-[270px] max-w-[240px] w-full" src={item.image} alt={item.alt} width={360} height={140} />
+                    <Link href="/" key={i} className="hover-animation-2" >
+                        <Image className="xl:max-w-[360px] lg:max-w-xs sm:max-w-[270px] max-w-[240px] w-full" src={item.image} alt={item.alt} width={360} height={140} />
+                    </Link>
                 ))}
             </div>
         </div>
