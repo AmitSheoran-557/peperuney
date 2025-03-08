@@ -11,7 +11,7 @@ const HowToBuy = () => {
                 </div>
                 <div className="xl:pt-20 lg:pt-16 md:pt-12 sm:pt-9 pt-5 z-20 -mt-1 relative flex flex-col justify-center mx-auto items-center">
                     <Image className='xl:!max-w-[443px] lg:max-w-sm md:max-w-[300px] max-w-[240px] mx-auto w-full lg:mb-6 mb-5 pointer-events-none' src="/assets/images/webp/how-to-buy-title.webp" alt="how-to-buy-title" width={443} height={155} />
-                    <div className="bg-[url(/assets/images/webp/open-pizza-box.webp)] max-w-[1920px] bg-cover bg-no-repeat w-full mx-auto bg-center">
+                    <div className="bg-[url(/assets/images/webp/open-pizza-box.webp)] xl:bg-[length:100%_100%] bg-cover max-w-[1920px] bg-no-repeat w-full mx-auto bg-center">
                         <div className="bg-brown-100 pt-12 lg:pb-12 md:pb-10 pb-4">
                             <div className="container max-w-[1075px] lg:pt-16 md:pt-24 sm:pt-20 pt-12 mx-auto px-4">
                                 <div className="flex flex-wrap justify-center xl:items-center items-start xl:pt-0 lg:pt-8 xl:gap-8 gap-16">
@@ -38,7 +38,7 @@ const HowToBuy = () => {
                                         </div>
                                         <div className="mt-4 p-2 border-4 max-xl:hidden relative flex justify-between lg:whitespace-nowrap items-center bg-white max-w-[322px] w-full lg:!min-w-[338px] text-sm">
                                             <p className="text-black lg:text-lg ">CA: 0x93jr98fo2ihf89hf0o82hf0ohi9f0</p>
-                                            <Image className='!max-w-[40px] w-full' src="/assets/images/webp/text-copy-logo.webp" alt="copy-icon" width={32} height={32} />
+                                            <Image className='!max-w-[40px] w-full cursor-pointer hover-animation-2' src="/assets/images/webp/text-copy-logo.webp" alt="copy-icon" width={32} height={32} />
                                         </div>
                                     </div>
                                     <div className="w-full max-w-[322px] xl:pt-[125px]">
